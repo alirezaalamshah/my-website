@@ -33,6 +33,7 @@ const setActiveColor = function (color) {
 document.addEventListener("DOMContentLoaded", () => {
   document.body.classList.add("dark");  // به‌صورت پیش‌فرض دارک مود فعال شود
 });
+
 const dayNight = document.querySelector(".day-night");
 window.addEventListener("load", () => {
   if (document.body.classList.contains("dark")) {
@@ -46,6 +47,7 @@ dayNight.addEventListener("click", () => {
   dayNight.querySelector("i").classList.toggle("fa-moon");
   document.body.classList.toggle("dark");
 });
+
 //detect user prefers
 if (
   window.matchMedia &&
