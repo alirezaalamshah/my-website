@@ -30,6 +30,9 @@ const setActiveColor = function (color) {
   });
 };
 //theme light and dark mode
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.classList.add("dark");  // به‌صورت پیش‌فرض دارک مود فعال شود
+});
 const dayNight = document.querySelector(".day-night");
 window.addEventListener("load", () => {
   if (document.body.classList.contains("dark")) {
