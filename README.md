@@ -10,15 +10,19 @@ A static personal portfolio & tutorials landing page, built with vanilla HTML/CS
 
 ## English
 
+### Screenshot
+
+![Personal site — home section](docs/screenshot.png)
+
 ### About
 
-A single-page personal site (Persian, RTL) presenting an introduction, skills/services, portfolio pieces, and a contact section, with a typing-effect headline and a live color-skin switcher.
+A single-page personal site (Persian, RTL) with a sidebar nav (خانه/درباره من/خدمات/نمونه کارها/تماس با من), a typing-effect headline ("یک `توسعه دهنده وب` هستم"), and a live color-skin switcher with 6 selectable palettes.
 
 ### Tech Stack
 
-- Vanilla HTML, CSS, JavaScript (no build step)
-- Font Awesome icons, Vazir font
-- Six selectable color skins via `style-switcher.js`
+- Vanilla HTML, CSS, JavaScript (no build step) — `js/script.js`, `js/style-switcher.js`
+- Font Awesome icons, Vazir font (loaded from CDN)
+- `css/skins/color-{1..6}.css` — swappable color themes
 
 ### Getting Started
 
@@ -32,15 +36,19 @@ npx serve .
 
 ## فارسی
 
+### تصویر
+
+![سایت شخصی — بخش خانه](docs/screenshot.png)
+
 ### درباره
 
-یک صفحه‌ی شخصی تک‌صفحه‌ای (فارسی، راست‌به‌چپ) شامل معرفی، مهارت‌ها/خدمات، نمونه‌کارها و بخش تماس، با افکت تایپینگ در عنوان و امکان تغییر زنده‌ی پوسته‌ی رنگی.
+یک صفحه‌ی شخصی تک‌صفحه‌ای (فارسی، راست‌به‌چپ) با منوی کناری (خانه/درباره من/خدمات/نمونه کارها/تماس با من)، افکت تایپینگ در عنوان («یک `توسعه دهنده وب` هستم») و امکان تغییر زنده‌ی پوسته‌ی رنگی با ۶ پالت قابل‌انتخاب.
 
 ### پشته فناوری
 
-- HTML، CSS و جاوااسکریپت خالص (بدون نیاز به build)
-- آیکون‌های Font Awesome، فونت وزیر
-- شش پوسته‌ی رنگی قابل انتخاب از طریق `style-switcher.js`
+- HTML، CSS و جاوااسکریپت خالص (بدون نیاز به build) — `js/script.js`، `js/style-switcher.js`
+- آیکون‌های Font Awesome، فونت وزیر (از CDN)
+- `css/skins/color-{1..6}.css` — تم‌های رنگی قابل تعویض
 
 ### راه‌اندازی
 
